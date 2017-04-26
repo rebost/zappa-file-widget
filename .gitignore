@@ -15,6 +15,7 @@ android_jars/
 /build/
 /dist/
 /*.egg-info/
+.tox
 
 # Basics
 *.pyc
