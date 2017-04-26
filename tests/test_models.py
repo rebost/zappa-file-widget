@@ -10,7 +10,7 @@ Tests for `zappa-file-widget` models module.
 
 from django.test import TestCase
 
-from zappa_file_widget import models
+from example import models
 
 
 class TestZappa_file_widget(TestCase):
