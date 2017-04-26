@@ -12,12 +12,12 @@ try:
                 "ENGINE": "django.db.backends.sqlite3",
             }
         },
-        ROOT_URLCONF="zappa_file_widget.urls",
+        ROOT_URLCONF="example.urls",
         INSTALLED_APPS=[
             "django.contrib.auth",
             "django.contrib.contenttypes",
             "django.contrib.sites",
-            "zappa_file_widget",
+            "example",
         ],
         SITE_ID=1,
         MIDDLEWARE_CLASSES=(),
