@@ -8,7 +8,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-version = '0.1.5'
+version = '0.1.6'
 
 if sys.argv[-1] == 'publish':
     try:
@@ -33,13 +33,13 @@ with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
     required = f.read().splitlines()
 
 setup(
-    name='zappa-file-widget',
+    name='zappa-file-widget-mediabucket',
     version=version,
-    description="""Django Admin File Wiget for Zappa based admin panels""",
-    long_description="",
-    author='Aneesh Kumar',
-    author_email='anush0247@gmail.com',
-    url='https://github.com/anush0247/zappa-file-widget',
+    description="""Django Admin File Wiget for Zappa based admin panels, forked to allow use of a different bucket for media files""",
+    long_description="This has to be forked, hopefully temporarily, as upstream is not responding (3 months)",
+    author='Matías Pizarro',
+    author_email='matias@pizarro.net',
+    url='https://github.com/rebost/zappa-file-widget',
     packages=[
         'zappa_file_widget',
     ],
